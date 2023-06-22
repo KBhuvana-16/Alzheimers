@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:#FFE4E1;
+}
+.image{
+    width: 100%;
+    padding: 10px;
+}
+
+#navbar{
+    display:flex;
+    padding: 15px;
+}
+
+h1{
+    text-align:center;
+    background-color:brown;
+    color: white;
+}
+h2{
+    text-align:center;
+    color:brown;
+}
+.item{
+    font-size: 15px;
+}
+
+#items{
+    margin: 20px;
+    padding: 20px;
+    background-color: wheat;
+    text-align:left;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: brown;
+}
+.hello{
+    font-size: 23px;
+    list-style-type: circle;
+}
+
+div{
+    margin-top: 40px;
+    margin: 20px;
+    background-color:antiquewhite;
+}
+p{
+    font-size: 20px;
+    padding: 15px;
+    font:bold;
+}
+.items{
+    margin: 10px;
+    padding-left: 20px;
+}
+
+.pic{
+    float: right;
+    width: 18%;
+    height: 30%;
+}
+
+.pic1{
+    float: right;
+    width: 20%;
+    margin-top: 3%;
+    
+}
+
+.pic2{
+    float: right;
+    width: 20%;
+    margin-top: 3%;
+}
+
+#ab{
+    display: inline-block;
+}
+
+.btn {
+    background-color: rgb(26, 9, 121);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    height: 29px;
+    width: 65px;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+.btn:hover{
+    cursor: pointer;
+}

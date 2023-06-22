@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslategrey;
+    background-position:center;
+    background-size: cover;
+    position: relative;
+}
+.container{
+    color:b#333;
+    position: relative;
+    max-width: 900px;
+    width:100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    background-color: white;
+}
+.container header{
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    color:#333;
+
+}
+.container header::before{
+    content:"" ;
+    position: absolute;
+    left:0;
+    bottom: -2px;
+    height: 3px;
+    width: 100px;
+    border-radius: 8px;
+    background-color:#a8532c;
+
+}
+.container form{
+    position: relative;
+    min-height: 490px;
+    background-color: transparent;
+    margin-top: 16px;
+
+}
+.container form .calm{
+    margin-top: 10px;
+
+}
+.container form .title{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 6px 0;
+    color:#333;
+}
+.container form .fields{
+    display:block;
+    align-items: center;
+    
+}
+.fields1{
+    display: inline-table;
+    align-items: center;
+    color:green;
+}
+
+.submit{
+    display: inline-block;
+    text-decoration: none;
+    color:#333;
+    border: 1px solid black;
+    padding:5px;
+    font-weight: bold;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    
+    text-align: center;
+}
+.submit:hover{
+    border: 1px solid #a8532c;
+    background: #a8532c;
+    transition: 0.5s;
+    color:white;
+}
+.reset{
+    display: inline-block;
+    text-decoration: none;
+    color:#333;
+    border: 1px solid black;
+    padding:5px;
+    font-weight: bold;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    
+    text-align: center;
+}
+.reset:hover{
+    border: 1px solid #a8532c;
+    background: #a8532c;
+    transition: 0.5s;
+    color:white;
+}
+@media(max-width: 700px){
+    .container header{
+        font-size: 5px;
+     
+     }
+     h3{
+        font-size: 15px;
+     }
+}
+
+p{
+    margin-top: 2.5%;
+}
+
+input{
+    margin-top: 2%;
+}
+
+button{
+    margin-bottom: 1%;
+    margin-top: 2%;
+}

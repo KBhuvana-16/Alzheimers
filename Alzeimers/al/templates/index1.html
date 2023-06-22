@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Doctor's Page</title>
+    <style>
+        .container{
+           background-color: lightblue;
+           height: 600px;
+           display: grid;
+           grid-template-columns: auto auto auto;
+           column-gap: 150px;
+           
+        }
+        .h1{
+            height: 240px;
+            width: 300px;
+            border: 2px solid white;
+            border-radius: 3px;
+            position: relative;
+            left: 40px;
+            top: 150px;
+            text-align: center;
+            color: rgb(98, 25, 165);
+
+        }
+        .sub1{
+            background-color: white;
+            height: 40px;
+            position: relative;
+            bottom: 23px;
+            justify-content: center;
+        }
+        a{
+            text-decoration: none;
+        }
+        marquee{
+            font-size: 25px;
+        }
+        
+        
+    </style>
+
+</head>
+<body>
+    
+    <div class="home">
+        <marquee behavior="alternate" direction="right">Doctors Available</marquee>
+
+    <div class="container">
+        
+        <div class="h1">
+             <img src="static/neuro.jpg" alt="alt3" height="200px" width="300px"><br>
+             <div class="sub1"><a href="doc1.html"><h2>Neurologist-Dr Madhushree</h2></a></div>
+        </div>
+        <div class="h1">
+             <img src="static/ortho.jpg" alt="alt2" height="200px" width="300px"><br>
+            <div class="sub1"> <a href="doc2.html"><h2>Orthopaedic-Dr Manjudev</h2></a></div>
+        </div>
+        <div class="h1">
+            <img src="static/anae.jpg" alt="alt1" height="200px" width="300px"><br>
+            <div class="sub1"><a href="doc3.html"><h2>Anaesthesialogist-Dr Kiran</h2></a></div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+
+.body{
+    background-color: #FFE4E1;
+}
+.scont{
+    border: 2px solid wheat;
+    width: 40%;
+    height: 520px;
+    border-radius: 10px;
+    margin: 8% 0 0 30%;
+ }
+ 
+ .heading{
+     text-align: center;
+ }
+ 
+ .btns{
+     cursor: pointer;
+     border-radius: 5px;
+     background-color:#4040c200;
+     margin-left: 5%;
+     font-size: 20px;
+     text-decoration: none;
+     border: 2px solid black;
+     margin-bottom: 1%;
+     padding: 1%;
+     color: black;
+ }

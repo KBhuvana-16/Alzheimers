@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physical test</title>
+    {% load static %}
+<link rel="stylesheet" href="{% static 'PhysicalTest.css' %}">
+    <link rel="stylesheet" href="https://unicorns.ionscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <div class="container">
+        <header>Hello There</header>
+
+        <form action="#">
+            <div class="form-first">
+                <div class="calm">
+                    <span class="title">Calm down and answer what you remember!<br></span><br>
+
+                    <div class="fields">
+                        <div class="Vegeterian">
+                            <p class="veg"><b>Are you a vegeterian?</b></p>
+
+
+                        <input type="radio" name="radio" id="veg1">
+                        <label for="veg1" class="veg11">
+                            <span>YES</span>                
+                        </label>
+                        <input type="radio" name="radio" id="veg2">
+                        <label for="veg2" class="veg2">
+                            <span>NO</span>                
+                        </label>
+                        </div><br>
+
+                        <div class="Diet">
+                            <p class="diet1"><b>Give a short description about your diet</b></p>
+                            <input type="text" name="text" id="diet1">
+                            
+                        </div><br>
+
+
+                        <div class="Alcoholic">
+                            <p class="Alcohol"><b>Are you an alcoholic?</b></p>
+
+
+                        <input type="radio" name="radio" id="al1">
+                        <label for="al1" class="al1">
+                            <span>YES</span>                
+                        </label>
+                        <input type="radio" name="radio" id="al2">
+                        <label for="al2" class="al2">
+                            <span>NO</span>                
+                        </label>
+                        </div><br>
+
+                        <div class="Medication">
+                            <p class="Med"><b>Are you on any Medication right now?</b></p>
+
+
+                        <input type="radio" name="radio" id="Med1">
+                        <label for="Med1" class="label1">
+                            <span>YES</span>                
+                        </label>
+                        <input type="radio" name="radio" id="Med2">
+                        <label for="Med2" class="label2">
+                            <span>NO</span>                
+                        </label>
+                        </div><br>
+
+                        <div class="Medication1">
+                            <p class="Medd"><b>If yes,please specify your prescription</b></p>
+                            <input type="text" name="text" id="Medd">
+                            
+                        </div><br>
+                        
+                        <div class="bloodGroup">
+                            <p class="bg"><b>What is your blood group?</b></p>
+                            <input type="text" name="text" id="bg">
+                            
+                        </div><br>
+
+
+                        <div class="wake-time">
+                            <p class="wt"><b>At what time do you usually wake up?</b></p>
+                            <input type="time" name="time" id="wt">
+                            
+                        </div><br>
+                        <div class="sleep-time">
+                            <p class="st"><b>what time do you usually fall asleep?</b></p>
+                            <input type="time" name="time" id="st">
+                            
+                        </div><br>
+                        <div class="Diabetes">
+                            <p class="sugar"><b>Do you have diabetes?</b></p>
+
+
+                        <input type="radio" name="radio" id="Med1">
+                        <label for="Med1" class="label1">
+                            <span>YES</span>                
+                        </label>
+                        <input type="radio" name="radio" id="Med2">
+                        <label for="Med2" class="label2">
+                            <span>NO</span>                
+                        </label>
+                        </div><br>
+                        <div class="Head-injury">
+                            <p class="hi"><b>Have you had any head injuries in the past?</b></p>
+
+
+                        <input type="radio" name="radio" id="Med1">
+                        <label for="Med1" class="label1">
+                            <span>YES</span>                
+                        </label>
+                        <input type="radio" name="radio" id="Med2">
+                        <label for="Med2" class="label2">
+                            <span>NO</span>                
+                        </label>
+                        </div><br>
+
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="submit">Submit</button>
+            <button type="reset" class="reset">Reset</button>
+           
+
+        </form>
+        <div id="google_translate_element"></div>
+
+        <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+        </script>
+        
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </div>
+
+</body>
+
+
+
+
+
+</html>

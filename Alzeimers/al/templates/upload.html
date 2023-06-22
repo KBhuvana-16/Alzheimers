@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alzheimer Upload Page</title>
+    {% load static %}
+<link rel="stylesheet" href="{% static 'upload.css' %}">
+</head>
+<body>
+  <div class="container">
+
+<div class="translate">
+   <div id="google_element"></div>
+   <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate" style="display: hide;"></script>
+   <script>
+   function loadGoogleTranslate(){
+      new google.translate.TranslateElement("google_element");
+   }
+   
+   </script>
+</div>
+
+
+
+   <nav>
+      
+      <a href="upload.html">
+      </a>
+  
+   </nav>
+<div class="textBox">
+   <h1>Upload the documents here</h1>
+   <p>The doctor will review your documents and get back to you shortly</p>
+   
+   <form>
+      <input type="file" id="file" multiple >
+   </form><br><br>
+   <hr width="100%">
+   <br> <h3>Please take your test here </h3>
+      <ion-icon name="arrow-down-outline"></ion-icon><br>
+     <a href="Physical test.html">
+      <button class="test-button">Click here</button>
+     </a>
+
+     <center>
+    
+      <a href="index.html">
+              <button class="btn"><b>Back</b></button>
+      </a>
+      </center>
+
+
+   
+</div>
+
+  </div>
+  
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+
+ 
+
+
+</body>
+</html>
+

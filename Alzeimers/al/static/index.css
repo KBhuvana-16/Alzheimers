@@ -1,0 +1,189 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    
+    /* background-color:red; */
+}
+
+#btn{
+    margin: 10px;
+    color: black;
+    font-size: 13px;
+}
+body::before{
+    content: "";
+    background: url("b.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.99;
+}
+nav a, span{
+    color: white;
+}
+nav a{
+    font-size: 20px;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    background: #aaa9a9;
+    color: black;
+    /* margin: -20px; */
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    left: 0;
+}
+footer img{
+    height: 49px;
+    width: 132px;
+}
+.contanier{
+    color: white;
+    text-align: center;
+    right: 150px;
+    font-size: 20px;
+    margin: auto;
+    font-size: 30px;
+}
+
+.contanier button{
+    height: 38px;
+    width: 277px;
+    color: black;
+    background-color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+@media  (max-width:1999px) and (min-width: 1000px){
+    #cont{
+        margin: auto;
+    }
+    .contanier H1{
+        margin-top: 90px;
+        font-size: 45px;
+    }
+    #bar{
+        font-size: 30px;
+        padding-top: 25px;
+    }
+    #btn{
+        font-size: 17px;
+        margin-left: 20px;
+    }
+    .btn{
+        display: block;
+        margin: auto;
+    }
+    
+    
+}
+@media  (max-width:1000px) and (min-width: 680px){
+    .contanier H1{
+        font-size: 40px;
+        margin-top: 90px;
+    
+    }
+    button{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    #bar{
+        font-size: 35px;
+        padding-top: 15px;
+    }   
+    #head::before{
+        opacity: 0.3;
+    }
+    
+    #btn{
+       display: flex;
+       flex-direction: row;
+       float: right;
+    }
+        
+    .btn{
+        display: block;
+        margin: auto;
+        float: right;
+    }
+    
+    
+}
+@media  (max-width:680px) and (min-width: 380px){
+    .contanier H1{
+        font-size: 30px;
+    }
+    button{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    #bar{
+        font-size: 28px;
+        padding-top: 15px;
+    }   
+    #head::before{
+        opacity: 0.3;
+    }
+    
+    #btn{
+       display: flex;
+       flex-direction: row;
+       float: right;
+    }
+        
+    .btn{
+        display: block;
+        margin: auto;
+        float: right;
+    }
+    
+    
+}
+@media  (max-width:375px) and (min-width: 10px){
+   
+    .contanier H1{
+        font-size: 18px;
+        
+    }
+    button{
+        font-size: 13px;
+        width: 150px;
+        font-weight: bold;
+    }
+    #btn{
+        font-size: 13px;
+        margin: 5px;
+    }
+    footer{
+        font-size: 12px;
+    }
+    #btn{
+        display: flex;
+        flex-direction: row;
+        width: 63px;
+     }
+         
+     .btn{
+         display: block;
+         margin: auto;
+         
+     }
+     .contanier button{
+        width: 200px;
+        font-size: 14px;
+     }
+}
